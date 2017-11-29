@@ -61,7 +61,7 @@ bool cBiparti(graph maGraph,int sommetD, int V){
             for(int i = 0; i < vec.size(); i++){
                 
                 if(colorArr[vec[i]] == 0 ){
-                    return false;
+                    return false; 
                 }
                 
                 else if (colorArr[vec[i]] ==  -1){
